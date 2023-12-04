@@ -1,5 +1,6 @@
 ---
 title: Bamboo Underwear
+image: /static/img/bamboo-1.jpg
 date: 2023-12-04T16:58:31.663Z
 author: Anonymous
 summary: For the last 4 years, I've been acting as a one-man marketing agency
