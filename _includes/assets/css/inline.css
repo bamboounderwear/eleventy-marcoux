@@ -1,5 +1,5 @@
 :root {
-	--primary: blue;
+	--primary: rgb(12, 12, 12);
 	--secondary: white;
 	--background: #FFF0EB;
 }
@@ -9,6 +9,7 @@
 }
 
 html,
+
 body {
 	padding: 0;
 	margin: 0;
