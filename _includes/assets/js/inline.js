@@ -1,8 +1,2 @@
-  // Get elements
-  const hamburger = document.getElementById('hamburger');
-  const menuWrapper = document.getElementById('menuWrapper');
+// Add your inline JS here
 
-  // Toggle menu
-  hamburger.addEventListener('click', function() {
-    menuWrapper.classList.toggle('open');
-  });
