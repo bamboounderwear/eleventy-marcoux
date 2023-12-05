@@ -2,8 +2,8 @@
 	{% for post in postslist | reverse %}
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 			<h3>
-			<img src="{{ post.data.image }}" />
 				<a href="{{ post.url | url }}">
+							<img src="{{ post.data.image }}" />
 					{% if post.data.title %}
 						{{ post.data.title }}
 					{% else %}
