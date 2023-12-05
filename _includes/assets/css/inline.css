@@ -199,6 +199,13 @@ button {
 
 /* Project Gallery */
 
+.projects-gallery img {
+    width: 100%;        /* Ensures the image takes the full width of its container */
+    height: 500px;      /* Set a fixed height */
+    object-fit: cover;  /* Resizes the image to maintain its aspect ratio */
+    object-position: center; /* Aligns the center of the image in the frame */
+}
+
 @media screen and (min-width: 768px) {
     .projects-gallery {
         display: flex;
