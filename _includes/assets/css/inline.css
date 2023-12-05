@@ -91,7 +91,8 @@ header > em {
 
 
 .logo-image {
-	max-width: 180px;
+	width: 180px;
+	max-width: 100%;
 }
 
 /* Header Nav */
