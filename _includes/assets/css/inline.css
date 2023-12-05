@@ -113,6 +113,12 @@ header nav li a[data-current="current item"] {
 	background-color: white;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Posts List */
 article {
 	margin-bottom: 1em;
