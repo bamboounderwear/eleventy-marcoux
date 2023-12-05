@@ -199,7 +199,7 @@ button {
 
 /* Project Gallery */
 
-.projects-gallery img {
+.projects-gallery-card {
     width: 100%;        /* Ensures the image takes the full width of its container */
 	padding-top: 50%;
 }
