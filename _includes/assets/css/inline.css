@@ -236,4 +236,9 @@ button {
 
 .footer {
 	background-color: #222222;
+	color: white;
+}
+
+.footer a {
+	color: white;
 }
