@@ -129,6 +129,44 @@ nav ul li {
     margin-right: 20px; /* Adjust spacing between menu items */
 }
 
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    /* Add additional styling as needed */
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 25px; /* Width of the bar */
+    height: 3px; /* Height of the bar */
+    background-color: #333; /* Color of the bar */
+    margin: 5px 0; /* Spacing between bars */
+    transition: 0.4s;
+}
+
+/* Hide the hamburger menu on larger screens */
+@media screen and (min-width: 600px) { /* Adjust the breakpoint as needed */
+    .hamburger-menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+    }
+}
+
+/* Show the hamburger menu on smaller screens */
+@media screen and (max-width: 599px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+}
+
+
 /* Posts List */
 article {
 	margin-bottom: 1em;

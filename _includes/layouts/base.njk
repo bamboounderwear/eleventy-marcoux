@@ -8,6 +8,14 @@
 		<header>
 			<div class="header-container">
 				<a href="{{ '/' | url }}"><img src="/static/img/marcoux_logo.png" class="logo-image" /></a>
+
+					<!-- Hamburger Menu Icon -->
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
 				{% include "components/nav.njk" %}
 			</div>
 		</header>
