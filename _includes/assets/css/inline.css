@@ -208,11 +208,8 @@ button {
 
 @media screen and (min-width: 768px) {
     .projects-gallery {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .projects-gallery > article {
-        flex-basis: 50%;
-        /* Optional: Add padding or margin if needed */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em; /* Optional: adds space between the grid items */
     }
 }
