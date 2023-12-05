@@ -34,15 +34,6 @@ code {
 	line-height: 1.5;
 }
 
-a[href],
-a[href]:visited {
-	color: var(--primary);
-}
-
-a[href]:not(:hover) {
-	text-decoration: none;
-}
-
 img {
 	max-width: 100%;
 	height: auto;
