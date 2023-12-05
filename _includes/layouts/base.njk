@@ -5,12 +5,15 @@
 
 	<body>
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}"><img src="/static/img/marcoux_logo.png" class="logo-image" /></a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
+<header>
+    <em>
+        <a href="{{ '/' | url }}"><img src="/static/img/marcoux_logo.png" class="logo-image" /></a>
+    </em>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <div class="menu-wrapper" id="menuWrapper">
+        {% include "components/nav.njk" %}
+    </div>
+</header>
 
 		<main>
 			{{ layoutContent | safe }}
@@ -21,3 +24,4 @@
 	</body>
 
 </html>
+

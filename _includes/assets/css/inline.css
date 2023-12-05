@@ -197,6 +197,81 @@ button {
 	cursor: pointer;
 }
 
+/* Hamburger Menu Button */
+.hamburger {
+    display: none; /* Hidden by default, will be shown in mobile view */
+    font-size: 2rem; /* Icon size */
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    background: none;
+    border: none;
+    color: var(--primary);
+    z-index: 1010; /* Higher than the .menu-wrapper z-index */
+}
+
+/* Full-Screen Menu */
+.menu-wrapper {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    z-index: 1000; /* Ensure it's above other content */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-wrapper.open {
+    display: flex; /* Shown when open */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item {
+    display: block;
+    margin: 20px 0;
+}
+
+.current-item {
+    text-decoration: underline;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    header nav ul.open {
+        display: block;
+    }
+
+    .logo-image {
+        margin: auto;
+        display: block;
+    }
+
+    /* Ensure main content is not visible when menu is open*/
+    .menu-wrapper.open ~ main {
+        display: none;
+    }
+}
+
 @media screen and (min-width:768px) {
 	:root {
 		font-size: 1.1rem;
