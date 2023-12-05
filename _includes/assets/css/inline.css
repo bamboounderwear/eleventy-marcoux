@@ -203,6 +203,7 @@ button {
     width: 100%;        /* Ensures the image takes the full width of its container */
     object-fit: cover;  /* Resizes the image to maintain its aspect ratio */
     object-position: center; /* Aligns the center of the image in the frame */
+	height: 340px;
 }
 
 @media screen and (min-width: 768px) {
@@ -215,6 +216,6 @@ button {
 		width: 100%;        /* Ensures the image takes the full width of its container */
 		object-fit: cover;  /* Resizes the image to maintain its aspect ratio */
 		object-position: center; /* Aligns the center of the image in the frame */
-		height:500px;
+		height:550px;
 	}
 }
