@@ -231,3 +231,16 @@ button {
 		height:550px;
 	}
 }
+
+#myVideo {
+    position: fixed; /* Fixed position to cover the whole screen */
+    right: 0; /* Align to the right and bottom of the window */
+    bottom: 0;
+    min-width: 100%; /* Minimum width and height to cover the screen */
+    min-height: 100%;
+    width: auto; /* Adjust the width and height automatically */
+    height: auto;
+    z-index: -1; /* Set a negative z-index to place it behind other elements */
+    background-size: cover; /* Cover the entire screen */
+    overflow: hidden; /* Hide the overflow */
+}
