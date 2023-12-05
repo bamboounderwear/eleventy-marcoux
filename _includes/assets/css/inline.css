@@ -196,3 +196,16 @@ button {
 		font-size: 1.1rem;
 	}
 }
+
+/* Project Gallery */
+
+@media screen and (min-width: 768px) {
+    .projects-gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projects-gallery > article {
+        flex-basis: 50%;
+        /* Optional: Add padding or margin if needed */
+    }
+}
