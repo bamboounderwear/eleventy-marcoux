@@ -119,6 +119,16 @@ header nav li a[data-current="current item"] {
     align-items: center;
 }
 
+nav ul {
+    display: flex;
+    list-style-type: none;
+    /* Add any additional styling for your navigation */
+}
+
+nav ul li {
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
 /* Posts List */
 article {
 	margin-bottom: 1em;
