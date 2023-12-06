@@ -129,17 +129,6 @@ nav ul.show {
     /* Add additional styles for the mobile menu here */
 }
 
-@media screen and (max-width: 768px) {
-    nav ul {
-        display: none;
-    }
-
-    .hamburger-icon {
-        display: block;
-        /* Style your hamburger icon here */
-    }
-}
-
 /* Posts List */
 article {
 	margin-bottom: 1em;
