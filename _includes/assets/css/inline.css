@@ -242,3 +242,19 @@ footer {
 footer a {
 	color: white;
 }
+
+.hamburger {
+    display: none;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
