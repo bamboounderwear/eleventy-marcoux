@@ -8,5 +8,7 @@ summary: Crafted a compelling marketing strategy for Firebarns' new
   engaging ad campaign.
 tags:
   - post
+gallery:
+  - image: /static/img/bloody-1.jpg
 ---
 Crafted a compelling marketing strategy for Firebarns' new ready-to-drink Bloody Caesar... Driving awareness across Quebec with an engaging ad campaign.
