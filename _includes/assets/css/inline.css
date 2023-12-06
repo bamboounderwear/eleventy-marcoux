@@ -237,3 +237,41 @@ footer {
 footer a {
 	color: white;
 }
+
+.hero-banner {
+    position: relative;
+    height: 100vh; /* Adjust based on your preference */
+    overflow: hidden;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers the entire section */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Keeps the video behind the content */
+}
+
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em; /* Adjust padding as needed */
+}
+
+.logo-image {
+    /* Update logo styles if needed */
+    z-index: 2; /* Ensures logo is above the video */
+}
+
+/* Adjust navigation styles if necessary */
+nav ul {
+    z-index: 2; /* Ensures navigation is above the video */
+}
