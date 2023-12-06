@@ -25,6 +25,7 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Gallery" name: "galleryImages" widget: "list" summary: '{{fields.image}}' field: {label: Image, name: image, widget: image} }
   # Our pages e.g. About
   - name: "pages"
     label: "Page"
