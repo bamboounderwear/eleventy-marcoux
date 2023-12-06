@@ -124,6 +124,17 @@ nav ul li {
     margin-right: 20px; /* Adjust spacing between menu items */
 }
 
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+        /* Style your hamburger icon here */
+    }
+}
+
 /* Posts List */
 article {
 	margin-bottom: 1em;
