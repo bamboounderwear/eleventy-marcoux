@@ -8,6 +8,15 @@ section: post
   
   <h1>{{ title }}</h1>
 
+  <!-- Gallery Images -->
+  {% if gallery %}
+    <div class="gallery">
+      {% for item in gallery %}
+        <img src="{{ item.image }}" alt="Gallery Image">
+      {% endfor %}
+    </div>
+  {% endif %}
+
   {{ layoutContent | safe }}
 
 </article>
