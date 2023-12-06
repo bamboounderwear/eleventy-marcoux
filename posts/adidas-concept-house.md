@@ -8,5 +8,10 @@ summary: The Adidas Concept House, an innovative creation that combines ideas,
   space.
 tags:
   - post
+gallery:
+  - image: /static/img/adidas-living.jpg
+  - image: /static/img/adidas-pool.jpg
+  - image: /static/img/adidas-office.jpg
+  - image: /static/img/adidas-room.jpg
 ---
 The Adidas Concept House, an innovative creation that combines ideas, architectural design, and brand identity into a dynamic, yet-to-be-realized space.
