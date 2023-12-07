@@ -246,11 +246,11 @@ footer a {
 
 /* New styles for mobile and desktop hamburger menu */
 #hamburger-btn {
-	display: none; /* Hidden by default, will be shown in media query below */
-	background: none;
-	border: none;
-	font-size: 2em;
-	cursor: pointer;
+	display: block;
+	z-index: 1001;
+	position: absolute;
+	right: 20px;
+	top: 20px;
 	color: black;
 	padding: 0;
 	margin: 0;
@@ -281,17 +281,6 @@ footer a {
 	color: var(--primary);
 	display: block;
 	transition: 0.3s;
-  }
-  
-  /* Show hamburger menu button on all screens */
-  @media screen and (max-width: 1440px) {
-	#hamburger-btn {
-	  display: block;
-	  z-index: 1001;
-	  position: absolute;
-	  right: 20px;
-	  top: 20px;
-	}
   }
   
   /* Close button inside the menu */
