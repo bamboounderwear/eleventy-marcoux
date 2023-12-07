@@ -245,7 +245,6 @@ footer {
 footer a {
 	color: white;
 }
-
 /* Hamburger Icon Styles */
 #hamburger-icon {
 	cursor: pointer;
@@ -253,11 +252,10 @@ footer a {
 	display: block; /* Show the hamburger icon */
   }
   
-/* Menu Icon Common Styles */
-.menu-icon {
+  #close-icon {
+	display: none; /* Initially hide the close icon */
 	cursor: pointer;
-	font-size: 24px;
-	display: block;
+	font-size: 24px; /* Adjust as needed */
   }
   
   #menu-toggle {
@@ -285,11 +283,13 @@ footer a {
 	margin-bottom: 10px; /* Space between links */
   }
   
-  #menu-toggle:checked + #hamburger-icon,
-  #menu-toggle:checked + #hamburger-icon + #close-icon + #menu-container {
+  /* Show Menu and Close Icon, Hide Hamburger Icon When Checkbox is Checked */
+  #menu-toggle:checked + .menu-icon + #menu-container,
+  #menu-toggle:checked + .menu-icon + #close-icon {
+	display: block;
+  }
+  
+  #menu-toggle:checked + .menu-icon {
 	display: none;
   }
   
-  #menu-toggle:checked + #hamburger-icon + #close-icon {
-	display: block;
-  }
