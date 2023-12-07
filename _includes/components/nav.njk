@@ -1,17 +1,10 @@
 <nav>
-  <!-- Hamburger Icon Toggle -->
-  <label for="menu-toggle" class="menu-icon" id="hamburger-icon">≡</label>
-  <!-- Close Icon -->
-  <label for="menu-toggle" class="menu-icon" id="close-icon" style="display: none;">×</label>
-  <input type="checkbox" id="menu-toggle" />
-
-  <!-- Navigation Links -->
-  <div id="menu-container">
-    <ul>
-      {% set navPages = collections.all | eleventyNavigation %}
-      {%- for entry in navPages %}
-        <li><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-    </ul>
-  </div>
+  {% set navPages = collections.all | eleventyNavigation %}
+  <ul>
+    {%- for entry in navPages %}
+      <li>
+        <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+      </li>
+    {%- endfor %}
+  </ul>
 </nav>
