@@ -9,5 +9,6 @@ tags:
   - post
 gallery:
   - image: /static/img/facebook-ad-mockup-4-.svg
+  - image: /static/img/ezgif-3-f5ba65ad0e.gif
 ---
 I strategized and created an advertising campaign to promote the all-new burger sauce by Firebarns.
