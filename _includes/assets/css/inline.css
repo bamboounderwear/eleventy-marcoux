@@ -246,37 +246,4 @@ footer a {
 	color: white;
 }
 
-/* Hamburger Menu Styles */
-#hamburger-icon, #close-icon {
-	cursor: pointer;
-	font-size: 24px; /* Adjust as needed */
-  }
-  
-  #menu-container {
-	position: fixed;
-	right: -100%; /* Start off-screen */
-	top: 0;
-	width: 300px; /* Adjust as needed */
-	height: 100vh;
-	background-color: #fff;
-	transition: right 0.3s ease;
-  }
-  
-  #menu-container ul {
-	list-style: none;
-	padding: 20px;
-  }
-  
-  #menu-container ul li {
-	margin-bottom: 10px; /* Space between links */
-  }
-  
-  /* Show Menu */
-  .show-menu {
-	right: 0; /* Slide in */
-  }
-  
-  .hidden {
-	display: none;
-  }
-  
+/* Menu Hamburger */
