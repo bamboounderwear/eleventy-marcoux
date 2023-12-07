@@ -74,12 +74,13 @@ pre {
 }
 
 .logo-image {
-	width: 180px;
+	width: 200px;
 	max-width: 100%;
 }
 
 .logo {
 	margin: auto;
+	padding-top: 20px;
 }
 
 /* Header Nav */
