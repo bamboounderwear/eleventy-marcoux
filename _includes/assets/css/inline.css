@@ -245,3 +245,60 @@ footer {
 footer a {
 	color: white;
 }
+
+/* New styles for mobile and desktop hamburger menu */
+#hamburger-btn {
+	display: none; /* Hidden by default, will be shown in media query below */
+	background: none;
+	border: none;
+	font-size: 2em;
+	cursor: pointer;
+  }
+  
+  .menu-container {
+	position: fixed;
+	top: 0;
+	right: -100%; /* Hidden initially by being off-screen */
+	height: 100%; /* Full screen height */
+	width: 300px; /* You can adjust the width of the menu */
+	background-color: var(--secondary);
+	overflow-x: hidden;
+	transition: .5s; /* Smooth transition for opening and closing the menu */
+	z-index: 1000;
+	padding-top: 60px; /* To offset from the top */
+  }
+  
+  .menu-container ul {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .menu-container a {
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 25px;
+	color: var(--primary);
+	display: block;
+	transition: 0.3s;
+  }
+  
+  /* Show hamburger menu button on all screens */
+  @media screen and (max-width: 1440px) {
+	#hamburger-btn {
+	  display: block;
+	  z-index: 1001;
+	  position: absolute;
+	  right: 20px;
+	  top: 20px;
+	}
+  }
+  
+  /* Close button inside the menu */
+  .close-btn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 2em;
+	margin-left: 50px;
+	cursor: pointer;
+  }
