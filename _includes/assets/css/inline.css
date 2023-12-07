@@ -246,6 +246,13 @@ footer a {
 	color: white;
 }
 
+/* Hamburger Icon Styles */
+#hamburger-icon {
+	cursor: pointer;
+	font-size: 24px; /* Adjust as needed */
+	display: block; /* Show the hamburger icon */
+  }
+  
 /* Menu Icon Common Styles */
 .menu-icon {
 	cursor: pointer;
@@ -278,12 +285,11 @@ footer a {
 	margin-bottom: 10px; /* Space between links */
   }
   
-/* Show Close Icon and Hide Hamburger Icon When Menu is Open */
-#menu-toggle:checked + #hamburger-icon,
-#menu-toggle:checked + #hamburger-icon + #close-icon + #menu-container {
-  display: none;
-}
-
-#menu-toggle:checked + #hamburger-icon + #close-icon {
-  display: block;
-}
+  #menu-toggle:checked + #hamburger-icon,
+  #menu-toggle:checked + #hamburger-icon + #close-icon + #menu-container {
+	display: none;
+  }
+  
+  #menu-toggle:checked + #hamburger-icon + #close-icon {
+	display: block;
+  }
