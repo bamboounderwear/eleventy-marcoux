@@ -7,5 +7,7 @@ summary: I strategized and created an advertising campaign to promote the
   all-new burger sauce by Firebarns.
 tags:
   - post
+gallery:
+  - image: /static/img/facebook-ad-mockup-4-.svg
 ---
 I strategized and created an advertising campaign to promote the all-new burger sauce by Firebarns.
