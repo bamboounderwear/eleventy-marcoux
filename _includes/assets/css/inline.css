@@ -166,7 +166,6 @@ form label {
 input,
 textarea,
 button {
-  width: 100%;
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
