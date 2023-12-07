@@ -2,7 +2,6 @@
   {% set navPages = collections.all | eleventyNavigation %}
   <button id="hamburger-btn">&#9776;</button>
   <div id="menu-container" class="menu-container">
-    <button id="close-btn" class="close-btn">&times;</button> <!-- This is a Unicode character for a multiplication sign, often used as a close icon -->
     <ul>
       {%- for entry in navPages %}
         <li>
