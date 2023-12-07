@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     menuToggle.addEventListener('click', function() {
       menuContainer.classList.toggle('menu-visible');
       menuContainer.classList.toggle('menu-hidden');
-      // Toggle icon from hamburger to close and vice versa
       this.classList.toggle('open');
     });
   });
