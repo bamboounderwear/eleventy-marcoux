@@ -89,7 +89,7 @@ header nav ul :first-child {
 
 header nav li {
 	display: inline-block;
-	margin: 0 .25em;
+	width: 100%;
 }
 
 header nav li a {
