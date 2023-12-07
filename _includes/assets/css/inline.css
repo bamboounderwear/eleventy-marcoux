@@ -246,4 +246,40 @@ footer a {
 	color: white;
 }
 
-/* Menu Hamburger */
+/* Hamburger Menu Styles */
+#hamburger-icon {
+	cursor: pointer;
+	font-size: 24px; /* Adjust as needed */
+	display: block; /* Show the hamburger icon */
+  }
+  
+  #menu-toggle {
+	display: none; /* Hide the checkbox */
+  }
+  
+  #menu-container {
+	display: none; /* Initially hide the menu */
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 300px; /* Adjust as needed */
+	height: 100vh;
+	background-color: #fff;
+	padding: 20px;
+  }
+  
+  #menu-container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  #menu-container ul li {
+	margin-bottom: 10px; /* Space between links */
+  }
+  
+  /* Show Menu when Checkbox is Checked */
+  #menu-toggle:checked + #menu-container {
+	display: block;
+  }
+  
