@@ -1,16 +1,10 @@
 <nav>
-  <button id="menu-toggle" aria-label="Open Menu">
-    <span class="menu-icon"></span>
-  </button>
-
-  <div id="menu-container" class="menu-hidden">
-    {% set navPages = collections.all | eleventyNavigation %}
-    <ul>
-      {%- for entry in navPages %}
-        <li>
-          <a href="{{ entry.url | url }}" {% if entry.url == page.url %}data-current="current item"{% endif %}>{{ entry.title }}</a>
-        </li>
-      {%- endfor %}
-    </ul>
-  </div>
+  {% set navPages = collections.all | eleventyNavigation %}
+  <ul>
+    {%- for entry in navPages %}
+      <li>
+        <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+      </li>
+    {%- endfor %}
+  </ul>
 </nav>
