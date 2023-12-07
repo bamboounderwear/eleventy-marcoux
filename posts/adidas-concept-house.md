@@ -10,6 +10,7 @@ tags:
   - post
 gallery:
   - image: /static/img/adidas-living-web.jpg
+  - image: /static/img/adidas-pool-web.jpg
   - image: /static/img/adidas-play-web.jpg
   - image: /static/img/adidas-room-web.jpg
 ---
