@@ -245,46 +245,60 @@ footer {
 footer a {
 	color: white;
 }
+
+/* New styles for mobile and desktop hamburger menu */
 #hamburger-btn {
-	display: block; /* This should be inside the media query if you wanted to only show it under certain screen widths, but as requested, it will be shown at all times */
+	display: none; /* Hidden by default, will be shown in media query below */
 	background: none;
 	border: none;
 	font-size: 2em;
 	cursor: pointer;
-	color: black; /* Ensures the hamburger icon is black */
-	z-index: 1001;
-	position: absolute;
-	right: 20px;
-	top: 20px;
+  }
+  
+  .menu-container {
+	position: fixed;
+	top: 0;
+	right: -100%; /* Hidden initially by being off-screen */
+	height: 100%; /* Full screen height */
+	width: 300px; /* You can adjust the width of the menu */
+	background-color: var(--secondary);
+	overflow-x: hidden;
+	transition: .5s; /* Smooth transition for opening and closing the menu */
+	z-index: 1000;
+	padding-top: 60px; /* To offset from the top */
   }
   
   .menu-container ul {
 	list-style-type: none;
 	padding: 0;
-	margin: 0;
-	text-align: left;
   }
   
   .menu-container a {
 	padding: 10px 15px;
 	text-decoration: none;
-	font-size: 20px;
-	color: black; /* Sets the link color to black */
+	font-size: 25px;
+	color: var(--primary);
 	display: block;
 	transition: 0.3s;
+  }
+  
+  /* Show hamburger menu button on all screens */
+  @media screen and (max-width: 1440px) {
+	#hamburger-btn {
+	  display: block;
+	  z-index: 1001;
+	  position: absolute;
+	  right: 20px;
+	  top: 20px;
+	}
   }
   
   /* Close button inside the menu */
   .close-btn {
 	position: absolute;
-	top: 20px;
+	top: 0;
 	right: 25px;
 	font-size: 2em;
+	margin-left: 50px;
 	cursor: pointer;
-	color: black; /* Ensures close icon is black */
-  }
-  
-  /* Necessary in order to layer the close button above the menu */
-  #menu-container {
-	padding-top: 60px; /* Provide enough space for the close button */
   }

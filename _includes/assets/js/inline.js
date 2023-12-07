@@ -3,15 +3,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     var hamburger = document.getElementById('hamburger-btn');
     var menu = document.getElementById('menu-container');
-    var closeBtn = document.getElementById('close-btn');
     
-    // Open the menu
+    // Adding an event listener to the hamburger button
     hamburger.addEventListener('click', function() {
-      menu.style.right = '0';
-    }, false);
-
-    // Close the menu
-    closeBtn.addEventListener('click', function() {
-      menu.style.right = '-100%';
+      // Toggle menu visibility
+      menu.style.right = menu.style.right === '0px' ? '-100%' : '0px';
     }, false);
   });
