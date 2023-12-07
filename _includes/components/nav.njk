@@ -1,18 +1,10 @@
 <nav>
-  <!-- Hamburger Icon -->
-  <div id="hamburger-icon">≡</div>
-
-  <!-- Menu Container (Initially Hidden) -->
-  <div id="menu-container" class="hidden">
-    <!-- Close Icon -->
-    <div id="close-icon">×</div>
-
-    <!-- Navigation Links -->
-    <ul>
-      {% set navPages = collections.all | eleventyNavigation %}
-      {%- for entry in navPages %}
-        <li><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-    </ul>
-  </div>
+  {% set navPages = collections.all | eleventyNavigation %}
+  <ul>
+    {%- for entry in navPages %}
+      <li>
+        <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+      </li>
+    {%- endfor %}
+  </ul>
 </nav>
