@@ -271,7 +271,8 @@ footer a {
 	top: 0;
 	right: -100%; /* Hidden initially by being off-screen */
 	height: 100%; /* Full screen height */
-	width: 300px; /* You can adjust the width of the menu */
+	width: 550px; /* You can adjust the width of the menu */
+	max-width: 80%;
 	background-color: var(--secondary);
 	overflow-x: hidden;
 	transition: .5s; /* Smooth transition for opening and closing the menu */
