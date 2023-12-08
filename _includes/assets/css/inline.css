@@ -313,8 +313,9 @@ footer a {
 	display: grid;
 	grid-template-columns: 1fr; /* Stacks on mobile */
 	gap: 50px; /* Space between title and content */
-	margin-left: 50px;
-	margin-right: 50px;
+	padding: 50px;
+	margin-top: 80px;
+	margin-bottom: 80px;
   }
   
   .post-content {
