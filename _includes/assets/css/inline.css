@@ -312,7 +312,6 @@ footer a {
 .post-header {
 	display: grid;
 	grid-template-columns: 1fr; /* Stacks on mobile */
-	gap: 50px; /* Space between title and content */
 	padding: 50px;
   }
   
