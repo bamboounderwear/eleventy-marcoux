@@ -4,12 +4,13 @@ section: post
 ---
 
 <article>
-   {# <img src="{{ image }}"/> #}
-  
-  <div>
+  <div class="post-header"> <!-- This is the new container for the title and content -->
     <h1>{{ title }}</h1>
+    <div class="post-content">
+      {{ layoutContent | safe }}
+    </div>
   </div>
-
+  
   <!-- Gallery Images -->
   {% if gallery %}
     <div class="gallery-image">
@@ -18,8 +19,6 @@ section: post
       {% endfor %}
     </div>
   {% endif %}
-
-  {{ layoutContent | safe }}
 
 </article>
 

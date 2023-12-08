@@ -303,3 +303,21 @@ footer a {
 	margin-left: 50px;
 	cursor: pointer;
   }
+
+  /* Post Header Grid */
+.post-header {
+	display: grid;
+	grid-template-columns: 1fr; /* Stacks on mobile */
+	gap: 20px; /* Space between title and content */
+  }
+  
+  .post-content {
+	/* If additional styling is needed for the content area */
+  }
+  
+  @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
+	.post-header {
+	  grid-template-columns: auto 1fr; /* Side by side: Title auto-width, content fills the rest */
+	}
+  }
+  
