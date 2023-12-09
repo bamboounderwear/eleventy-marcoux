@@ -321,7 +321,7 @@ footer a {
   
   @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
 	.post-header {
-	  grid-template-columns: 50% 50%; /* Side by side: Title auto-width, content fills the rest */
+	  grid-template-columns: 50% 50%; 
 	}
   }
   
