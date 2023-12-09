@@ -316,14 +316,20 @@ footer a {
 	padding: 50px;
   }
   
-  .post-content {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-  
   @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
 	.post-header {
 	  grid-template-columns: 50% 50%; 
 	}
+
+	.post-content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.post-header h1 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
   }
   
