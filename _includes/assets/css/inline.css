@@ -322,6 +322,7 @@ footer a {
   @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
 	.post-header {
 	  grid-template-columns: auto 1fr; /* Side by side: Title auto-width, content fills the rest */
+	  grid-gap: 50px;;
 	}
   }
   
