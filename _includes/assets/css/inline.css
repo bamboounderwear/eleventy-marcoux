@@ -229,6 +229,10 @@ button {
 
 /* Single Project Gallery */
 
+.gallery-image {
+	margin-top: 25px;
+}
+
 .gallery-image img {
     width: 100%;        /* Ensures the image takes the full width of its container */
     object-fit: cover;  /* Resizes the image to maintain its aspect ratio */
