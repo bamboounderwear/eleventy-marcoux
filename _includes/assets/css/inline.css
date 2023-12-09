@@ -316,9 +316,10 @@ footer a {
 	padding: 50px;
   }
   
-  .post-content {
-	/* If additional styling is needed for the content area */
-  }
+  .post-content h1 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
   
   @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
 	.post-header {
