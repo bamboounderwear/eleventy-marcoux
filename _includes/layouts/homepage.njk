@@ -1,0 +1,24 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+	<body>
+
+		<header>
+    <div class="header-container">
+        <a href="{{ '/' | url }}" class="logo"><img src="/static/img/marcoux_logo.png" class="logo-image" /></a>
+        {% include "components/nav.njk" %}
+    </div>
+</header>
+
+		<main>
+			{{ layoutContent | safe }}
+		</main>
+
+		{% include "components/footer.njk" %}
+
+	</body>
+
+</html>
+
