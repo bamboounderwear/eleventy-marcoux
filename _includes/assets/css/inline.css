@@ -97,7 +97,6 @@ pre {
 
 .logo {
 	margin: auto;
-	padding-top: 15px;
 }
 
 /* Header Nav */
@@ -281,7 +280,7 @@ footer a {
 	z-index: 1001;
 	background: none;
 	border: none;
-	font-size: 2em;
+	font-size: 1.7em;
 	cursor: pointer;
 	color: black;
 	padding: 0;
