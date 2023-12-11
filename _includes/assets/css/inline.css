@@ -93,6 +93,7 @@ pre {
 .logo-image {
 	width: 178px;
 	max-width: 100%;
+	padding-top: 5px;
 }
 
 .logo {
