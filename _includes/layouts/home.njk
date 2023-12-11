@@ -2,15 +2,4 @@
 layout: layouts/base.njk
 section: home
 ---
-{% extends "base.njk" %}
-{% block hero %}
-<section class="hero-banner">
-    <video class="hero-video" autoplay loop muted>
-        <source src="{{ page.video | url }}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <!-- Add any additional content for your hero banner here -->
-</section>
-{% endblock %}
-
 {{ layoutContent | safe }}
