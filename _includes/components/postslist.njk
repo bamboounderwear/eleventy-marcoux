@@ -2,9 +2,7 @@
 	{% for post in postslist | reverse %}
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 				<a href="{{ post.url | url }}">
-					<div class="img-hover-zoom">
 						<img src="{{ post.data.image }}" />
-					</div>
 					<h3>
 						{% if post.data.title %}
 							{{ post.data.title }}
