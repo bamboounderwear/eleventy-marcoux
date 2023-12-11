@@ -355,3 +355,25 @@ footer a {
 
   }
   
+  /* Hero Banner */
+.hero-banner {
+	height: 80vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+  }
+  
+  .hero-video {
+	position: absolute;
+	width: 100vw; /* Video covers the full width of the viewport */
+	height: 80vh; /* Set the height of the video to 80vh */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); /* Center the video */
+	object-fit: cover; /* Resize the video to cover the entire element */
+	z-index: -1; /* Make sure the video is behind the content */
+  }
+  
+  /* Remaining styles ... */
