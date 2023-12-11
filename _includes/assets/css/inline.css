@@ -327,6 +327,11 @@ footer a {
 	right: 20px;
 	top: 20px;
   }
+
+  /* Invert hamburger button */
+  .header-invert #hamburger-btn {
+	color: white;
+  }
   
   .menu-container {
 	position: fixed;
