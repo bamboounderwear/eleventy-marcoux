@@ -166,24 +166,6 @@ header nav li a[data-current="current item"] {
     align-items: center;
 }
 
-/* Inverted header for homepage */
-.homepage-header {
-    background-color: transparent;
-}
-
-.homepage-header .header-container,
-.homepage-header nav,
-.homepage-header nav ul li a,
-.homepage-header .logo-image {
-    color: white; /* Sets text color to white */
-}
-
-/* Inverting the logo */
-/* Replace 'path_to_white_logo.png' with the actual path of your white logo */
-.homepage-header .logo-image {
-    content: url('path_to_white_logo.png');
-}
-
 /* Posts List */
 article {
 	margin-bottom: 1em;
