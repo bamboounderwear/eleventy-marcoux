@@ -51,6 +51,15 @@ h1 {
 	line-height: 1;
 }
 
+h3 {
+	font-size: 1.62em;
+	line-height: 1;
+}
+
+.arrow-cta {
+	font-size: 0.62em;
+}
+
 header,
 main,
 footer {
