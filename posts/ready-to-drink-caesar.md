@@ -10,5 +10,6 @@ tags:
   - post
 gallery:
   - image: /static/img/bloody-1.jpg
+  - image: /static/img/bloody-2.jpg
 ---
 Crafted a compelling marketing strategy for Firebarns' new ready-to-drink Bloody Caesar... Driving awareness across Quebec with an engaging ad campaign.
