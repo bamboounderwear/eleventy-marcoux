@@ -26,32 +26,6 @@
 
 		<main>
 			{{ layoutContent | safe }}
-            
-<section class="projects-gallery">
-	{% for post in postslist | reverse %}
-		<article{% if post.url == url %} data-current="current item"{% endif %}>
-				<a href="{{ post.url | url }}">
-						<img src="{{ post.data.image }}" />
-					<h3>
-						{% if post.data.title %}
-							{{ post.data.title }}
-						{% else %}
-							Untitled
-						{% endif %}
-					</h3>
-				</a>
-			{% if post.data.summary %}
-				<p class="arrow-cta">
-					View project → 
-					{# Project summary (uncomment to readd) {{ post.data.summary }} #}
-				</p>
-			{% endif %}
-
-		</article>
-	{% endfor %}
-</section>
-
-
 		</main>
 
 		{% include "components/footer.njk" %}
