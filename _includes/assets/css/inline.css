@@ -288,6 +288,10 @@ button {
     object-position: center; /* Aligns the center of the image in the frame */
 }
 
+.full-width {
+    grid-column: 1 / -1; /* Spans the full width of the grid */
+}
+
 @media screen and (min-width: 768px) {
     .gallery-image {
         display: grid;
