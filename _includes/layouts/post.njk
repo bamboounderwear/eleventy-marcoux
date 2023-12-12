@@ -12,13 +12,17 @@ section: post
   </div>
   
   <!-- Gallery Images -->
-  {% if gallery %}
-    <div class="gallery-image">
-      {% for item in gallery %}
-        <img src="{{ item.image }}" alt="Gallery Image" class="{{ item.fullWidth ? 'full-width' : '' }}">
-      {% endfor %}
-    </div>
-  {% endif %}
+{% if gallery %}
+  <div class="gallery-image">
+    {% for item in gallery %}
+      {% if item.fullWidth %}
+        <img src="{{ item.image }}" alt="Gallery Image" class="full-width">
+      {% else %}
+        <img src="{{ item.image }}" alt="Gallery Image">
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
 
 </article>
 
