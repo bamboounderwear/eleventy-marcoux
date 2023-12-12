@@ -19,11 +19,11 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    width: 100%; /* Full width of the container */
+    height: auto; /* Auto height to maintain aspect ratio */
+    min-height: 100%; /* Minimum height to cover the container vertically */
     transform: translate(-50%, -50%);
+    object-fit: cover; /* Covers the area, might crop some parts of the video */
     z-index: -1;
 }
 
