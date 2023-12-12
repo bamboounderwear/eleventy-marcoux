@@ -4,14 +4,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Adding an event listener to the hamburger button
   hamburger.addEventListener('click', function() {
-    // Toggle menu visibility
-    menu.style.right = menu.style.right === '0px' ? '-100%' : '0px';
+      // Toggle menu visibility
+      menu.style.right = menu.style.right === '0px' ? '-100%' : '0px';
 
-    // Toggle the icon
-    if (menu.style.right === '0px') {
-      hamburger.innerHTML = '&#x2716;'; // Close icon
-    } else {
-      hamburger.innerHTML = '&#9776;'; // Hamburger icon
-    }
+      // Toggle the icon and color
+      if (menu.style.right === '0px') {
+          hamburger.innerHTML = '&#x2716;'; // Close icon
+          hamburger.style.color = 'black'; // Set color to black
+      } else {
+          hamburger.innerHTML = '&#9776;'; // Hamburger icon
+          // Reset the color if needed, e.g., hamburger.style.color = 'initial';
+      }
   }, false);
 });
