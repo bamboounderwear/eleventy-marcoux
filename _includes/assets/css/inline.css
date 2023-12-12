@@ -97,7 +97,7 @@ h3 {
 header,
 main,
 footer {
-	padding: 1em;
+	padding: 2em;
 }
 
 main :first-child,
