@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
           hamburger.style.color = 'black'; // Set color to black
       } else {
           hamburger.innerHTML = '&#9776;'; // Hamburger icon
-          // Reset the color if needed, e.g., hamburger.style.color = 'initial';
+          hamburger.style.color = 'initial';
       }
   }, false);
 });
