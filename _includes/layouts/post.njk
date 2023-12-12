@@ -15,7 +15,7 @@ section: post
 {% if gallery %}
   <div class="gallery-image">
     {% for item in gallery %}
-      <img src="{{ item.image }}" alt="Gallery Image" class="{{ item.fullWidth ? 'full-width' : '' }}">
+      <img src="{{ item.image }}" alt="Gallery Image" class="{{ item.fullWidth and item.fullWidth == true ? 'full-width' : '' }}">
     {% endfor %}
   </div>
 {% endif %}
