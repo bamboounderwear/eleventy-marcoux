@@ -38,7 +38,11 @@
 }
 
 .hero-headline {
-	font-size: 4.25em;
+	font-size: 6.75em;
+}
+
+.hero-subheadline {
+	font-size: 1.62em;
 }
 
 body {
