@@ -68,6 +68,7 @@ main {
 	max-width: 1440px;
 	margin: auto;
 	width: 100%;
+	padding-top: 2em;
 }
 
 p,
@@ -274,6 +275,7 @@ button {
 
 @media screen and (min-width: 768px) {
     .projects-gallery {
+		margin-top: 2em;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em; /* Optional: adds space between the grid items */
