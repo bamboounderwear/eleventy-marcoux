@@ -17,13 +17,3 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   }, false);
 });
-
-document.addEventListener("DOMContentLoaded", function() {
-    var heroVideo = document.getElementById("heroVideo");
-    var fallbackImage = document.getElementById("fallbackImage");
-
-    heroVideo.onerror = function() {
-        heroVideo.style.display = 'none';
-        fallbackImage.style.display = 'block';
-    };
-});
