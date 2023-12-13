@@ -9,5 +9,6 @@ eleventyNavigation:
   key: Home
   order: 0
 headline: CREATIVITY +MARKETING
+subheadline: Where creativity and results shake hands.
 ---
 Hello it's me!
