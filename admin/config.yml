@@ -48,4 +48,5 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Headline", name: "headline", widget: "text", required: false }
+      - { label: "Subheadline", name: "subheadline", widget: "text", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
