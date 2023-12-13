@@ -39,9 +39,11 @@
 
 .hero-headline {
 	font-size: 6.75em;
+	margin-bottom: 0px;
 }
 
 .hero-subheadline {
+	margin-top: 0px;
 	font-size: 1.62em;
 }
 
