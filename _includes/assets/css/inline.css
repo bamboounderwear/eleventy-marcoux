@@ -133,6 +133,20 @@ pre {
 	margin: .5em 0;
 }
 
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
 .logo-image {
 	width: 178px;
 	max-width: 100%;
