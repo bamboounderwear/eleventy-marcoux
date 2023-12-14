@@ -1,6 +1,33 @@
 <footer>
+  <div class="footer-container">
+    <!-- Column for Dynamically Added Website Page Links -->
+    <div class="footer-column">
+      <h4>Pages</h4>
+      <ul>
+        {% set navPages = collections.all | eleventyNavigation %}
+        {%- for entry in navPages %}
+          <li>
+            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+          </li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <!-- Column for Social Links and Email -->
+    <div class="footer-column">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="https://twitter.com/yourhandle">Twitter</a></li>
+        <li><a href="https://github.com/yourhandle">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/yourhandle">LinkedIn</a></li>
+        <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <!-- Add other social links as needed -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Custom Copyright Text -->
   <small>
-    Created by <a href="https://danurbanowicz.com">Dan Urbanowicz</a>.
-    Check out the <a href="{{ pkg.repository.url }}">GitHub project</a>. Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a>
+    MARCOUX - 2023 - All Rights Reserved
   </small>
 </footer>
