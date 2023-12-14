@@ -410,3 +410,38 @@ footer a {
 	}
 
   }
+
+  .footer-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+  }
+  
+  .footer-column {
+	margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) { /* Adjust this breakpoint as needed */
+	.footer-container {
+	  flex-direction: row;
+	  justify-content: space-around;
+	}
+  
+	.footer-column {
+	  flex: 1;
+	  margin-bottom: 0;
+	}
+  }
+  
+  /* Additional styling */
+  footer {
+	padding: 20px;
+	background-color: #f8f8f8; /* Choose your preferred color */
+	color: #333; /* Choose your preferred text color */
+  }
+  
+  footer a {
+	color: inherit; /* Ensures links use the footer's text color */
+	text-decoration: none;
+  }
+  
