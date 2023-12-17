@@ -306,12 +306,12 @@ button {
         grid-column: span 3; /* Spans full width */
     }
 
-    .projects-gallery img {
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-        height: auto; /* Adjust height to maintain aspect ratio */
-    }
+	.projects-gallery img {
+		width: 100%;               /* Ensures the image takes the full width of its container */
+		object-fit: cover;         /* Ensures the image covers the area without stretching */
+		object-position: center;   /* Centers the image */
+		height: 300px;             /* Fixed height for all images */
+	}
 }
 
 
