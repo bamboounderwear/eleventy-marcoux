@@ -314,40 +314,6 @@ button {
 	}
 }
 
-.projects-gallery article {
-    position: relative; /* Needed for absolute positioning of children */
-    display: block;
-}
-
-.projects-gallery article::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* 50% black overlay */
-    opacity: 0; /* Hide by default */
-    transition: opacity 0.3s ease; /* Smooth transition for the hover effect */
-}
-
-.projects-gallery article:hover::after {
-    opacity: 1; /* Show overlay on hover */
-}
-
-.projects-gallery h3 {
-    position: absolute;
-    bottom: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    color: white; /* Text color */
-    display: none; /* Hide by default */
-}
-
-.projects-gallery article:hover h3 {
-    display: block; /* Show title on hover */
-}
-
-
 /* Single Project Gallery */
 
 .gallery-image {
