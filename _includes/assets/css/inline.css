@@ -310,7 +310,7 @@ button {
 		width: 100%;               /* Ensures the image takes the full width of its container */
 		object-fit: cover;         /* Ensures the image covers the area without stretching */
 		object-position: center;   /* Centers the image */
-		height: 300px;             /* Fixed height for all images */
+		height: 600px;             /* Fixed height for all images */
 	}
 }
 
