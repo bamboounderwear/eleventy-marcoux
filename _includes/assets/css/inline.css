@@ -422,15 +422,15 @@ footer a {
 	padding-bottom: 50px;
   }
   
-  @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
-	.post-header {
-	  grid-template-columns: 50% 50%; 
-	}
-
-	.post-content {
+  	.post-content {
     margin-top: 1.8em;
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+  
+  @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
+	.post-header {
+	  grid-template-columns: 50% 50%; 
 	}
 
 	.post-header h1 {
