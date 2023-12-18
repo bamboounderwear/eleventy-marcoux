@@ -361,11 +361,12 @@ footer a {
 
 /* New styles for mobile and desktop hamburger menu */
 #hamburger-btn {
+	font-family: 'Manrope', sans-serif;
 	display: block;
 	z-index: 1001;
 	background: none;
 	border: none;
-	font-size: 1.7em;
+	font-size: 1.2em;
 	cursor: pointer;
 	color: black;
 	padding: 0;
