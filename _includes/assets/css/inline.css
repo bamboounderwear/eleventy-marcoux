@@ -417,7 +417,8 @@ footer a {
 .post-header {
 	display: grid;
 	grid-template-columns: 1fr; /* Stacks on mobile */
-	padding: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
   }
   
   @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
