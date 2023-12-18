@@ -359,65 +359,6 @@ footer a {
 	color: white;
 }
 
-/* New styles for mobile and desktop hamburger menu */
-#hamburger-btn {
-	display: block;
-	z-index: 1001;
-	background: none;
-	border: none;
-	font-size: 1.7em;
-	cursor: pointer;
-	color: black;
-	padding: 0;
-	margin: 0;
-	position: absolute;
-	right: 20px;
-	top: 30px;
-  }
-
-  /* Invert hamburger button */
-  .header-invert #hamburger-btn {
-	color: white;
-  }
-  
-  .menu-container {
-	position: fixed;
-	top: 0;
-	right: -100%; /* Hidden initially by being off-screen */
-	height: 100%; /* Full screen height */
-	width: 550px; /* You can adjust the width of the menu */
-	max-width: 80%;
-	background-color: var(--secondary);
-	overflow-x: hidden;
-	transition: .5s; /* Smooth transition for opening and closing the menu */
-	z-index: 1000;
-	padding-top: 60px; /* To offset from the top */
-  }
-  
-  .menu-container ul {
-	list-style-type: none;
-	padding: 0;
-  }
-  
-  .menu-container a {
-	padding: 10px 15px;
-	text-decoration: none;
-	font-size: 25px;
-	color: var(--primary);
-	display: block;
-	transition: 0.3s;
-  }
-  
-  /* Close button inside the menu */
-  .close-btn {
-	position: absolute;
-	top: 0;
-	right: 25px;
-	font-size: 2em;
-	margin-left: 50px;
-	cursor: pointer;
-  }
-
   /* Post Header Grid */
 .post-header {
 	display: grid;
