@@ -64,7 +64,6 @@ body {
 }
 
 body {
-    font-size: clamp(100%, 1rem + 2vw, 24px);
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
