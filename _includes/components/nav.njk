@@ -1,37 +1,13 @@
-<nav class="nav">
-  <div class="nav--bar">
-    <!-- nav brand -->
-    <span class="nav--brand"><a href="#">Selcuk Cura</a></span>
-
-    <!-- nav toggle -->
-    <button class="nav--toggle">
-      <span class="nav--label-container">
-        <span class="nav--label">Menu</span>
-        <span class="nav--label">Close</span>
-      </span>
-      <span class="nav--navicon">
-        <span class="nav--navicon-line"></span>
-        <span class="nav--navicon-line"></span>
-        <span class="nav--navicon-line"></span>  
-      </span>
-    </button>
-  </div>
-
-  <!-- nav menu backdrop -->
-  <div class="nav--menu-backdrop"></div>
-  
-  <!-- nav menu bg -->
-  <div class="nav--menu-bg"></div>
-
-  <!-- nav menu -->
-  <div class="nav--menu">
-    <div class="nav--menu-container">
-      <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+<nav>
+  {% set navPages = collections.all | eleventyNavigation %}
+  <button id="hamburger-btn">&#9776;</button>
+  <div id="menu-container" class="menu-container">
+    <ul>
+      {%- for entry in navPages %}
+        <li>
+          <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
   </div>
 </nav>
