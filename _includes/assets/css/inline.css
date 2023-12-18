@@ -100,7 +100,7 @@ h1 {
 }
 
 h3 {
-	font-size: 1.62em;
+	font-size: clamp(1.8rem, 2.5vw, 2.25rem);
 	font-weight: 600;
 	line-height: 1;
 	margin-bottom: 14px;
