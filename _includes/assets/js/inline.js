@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Toggle the icon and color
       if (menu.style.right === '0px') {
-          hamburger.innerHTML = '&#x2716;'; // Close icon
+          hamburger.innerHTML = 'Close'; // Close icon
           hamburger.style.color = 'black'; // Set color to black
       } else {
-          hamburger.innerHTML = '&#9776;'; // Hamburger icon
+          hamburger.innerHTML = 'Menu'; // Hamburger icon
           hamburger.style.color = 'white';
       }
   }, false);
