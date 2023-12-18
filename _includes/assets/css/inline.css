@@ -424,8 +424,6 @@ footer a {
   
   	.post-content {
     margin-top: 1.8em;
-		padding-left: 15px;
-		padding-right: 15px;
 	}
   
   @media screen and (min-width: 768px) { /* This media query is for desktop sizes */
