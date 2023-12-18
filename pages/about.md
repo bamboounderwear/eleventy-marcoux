@@ -1,33 +1,19 @@
 ---
-title: About us
-metaDescription: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.description will be used instead.
+title: About MARCOUX
+metaDescription: This is a sample meta description. If one is not present in
+  your page/post's front matter, the default metadata.description will be used
+  instead.
+image: /static/img/jfbouchard.png
 date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Welcome to MARCOUX – where every marketing move makes a lasting impact. This isn't just an agency; it's where brands become unforgettable. 
 
-Add a few line breaks in here to test:-
-Capitalize  
-on  
-low  
-hanging  
-fruit  
+Rooted in a passion for creative storytelling and strategic marketing, MARCOUX specializes in turning visionary ideas into concrete results. It's a place where diverse creative skills meet strategic thinking to elevate brands to new heights.
 
-## Our services
+Every project and every campaign (* we hope the next one is yours) is an opportunity for MARCOUX to redefine the standards in advertising, marketing, and brand growth.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-### Blue-sky thinking
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-#### Management frameworks
-
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-##### Regulatory convergence
-
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+You're here because your brand's story needs to be told, and MARCOUX is eager to write its new chapter and shout it from every rooftop, in the middle of the night. Let's amplify your narrative together.
