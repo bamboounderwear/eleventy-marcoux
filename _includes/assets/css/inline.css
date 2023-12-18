@@ -192,21 +192,6 @@ header nav li a[data-current="current item"] {
 	background-color: white;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-invert {
-	position: absolute; /* or 'fixed' if you want it to stay at the top as you scroll */
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 10; /* Ensures the header stays above the hero banner */
-	background-color: transparent; /* or any other styling you want */
-}
-
 /* Posts List */
 article {
 	margin-bottom: 1em;
