@@ -94,7 +94,7 @@ img {
 }
 
 h1 {
-	font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+	font-size: clamp(2.6rem, 2.5vw, 4rem);
 	line-height: 1;
 	font-weight: 600;
 }
