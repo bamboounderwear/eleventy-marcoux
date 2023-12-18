@@ -418,7 +418,7 @@ footer a {
 .post-header {
 	display: grid;
 	grid-template-columns: 1fr; /* Stacks on mobile */
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-bottom: 50px;
   }
   
