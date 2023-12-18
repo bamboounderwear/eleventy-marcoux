@@ -290,7 +290,7 @@ button {
     .projects-gallery {
         margin-top: 2em;
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+        grid-template-columns: repeat(2, 1fr); /* Three columns of equal width */
         grid-gap: 1em;
     }
 
