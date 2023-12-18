@@ -289,6 +289,7 @@ button {
 
 .projects-gallery {
         margin-top: 2em;
+		height: 600px;             /* Fixed height for all images */
     }
 
 @media screen and (min-width: 768px) {
