@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 image: /static/img/hero11.jpg
-video: /static/img/background2.mp4
+video: /static/img/background-reel.mp4
 title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
